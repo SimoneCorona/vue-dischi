@@ -25,6 +25,7 @@ export default {
     height: 40px;
     width: 40px;
     margin: 1rem;
+    fill: green;
   }
 }
 </style>
