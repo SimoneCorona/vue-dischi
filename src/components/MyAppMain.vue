@@ -39,7 +39,7 @@ export default {
         return {
             track_info: [],
             loading: true,
-            genre: ''
+            genre: '',
         }
     },
     methods: {
