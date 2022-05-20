@@ -1,7 +1,9 @@
 <template>
-  <div class="header_wrapper">
-    <img src="../assets/img/logo-small.svg" alt="">
-  </div>
+  <header>
+    <div class="header_wrapper">
+      <img src="../assets/img/logo-small.svg" alt="">
+    </div>
+  </header>
 </template>
 
 <script>
@@ -25,7 +27,6 @@ export default {
     height: 40px;
     width: 40px;
     margin: 1rem;
-    fill: green;
   }
 }
 </style>

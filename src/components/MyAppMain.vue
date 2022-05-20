@@ -1,14 +1,16 @@
 <template>
-  <div class="main_wrapper">
-    <div class="container">
-        <div v-if="loading">
-            <MyAppLoading />
+    <main>
+        <div class="main_wrapper">
+            <div class="container">
+                <div v-if="loading">
+                    <MyAppLoading />
+                </div>
+                <div v-else class="row row-cols-6">
+                    <MyAppTrackCards v-for="element in track_info" :key="element.index" :track="element"/>
+                </div>
+            </div>
         </div>
-        <div v-else class="row row-cols-6">
-            <MyAppTrackCards v-for="element in track_info" :key="element.index" :track="element"/>
-        </div>
-    </div>
-  </div>
+    </main>
 </template>
 
 <script>
