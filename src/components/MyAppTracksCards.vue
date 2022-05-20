@@ -12,7 +12,7 @@ export default {
     name: 'MyAppTracksCards',
     props: {
         track: Object,
-    }
+    },
 }
 </script>
 

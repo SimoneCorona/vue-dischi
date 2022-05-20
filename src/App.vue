@@ -9,13 +9,13 @@
 import MyAppHeader from './components/MyAppHeader.vue'
 import MyAppMain from './components/MyAppMain.vue'
 
+
 export default {
   name: 'App',
   components: {
     MyAppHeader,
-    MyAppMain 
-
-  }
+    MyAppMain,
+}
 }
 </script>
 
